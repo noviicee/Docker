@@ -13,8 +13,9 @@ WORKDIR /usr/app
 #also to avoid overwriting
 
 # install dependencies
-COPY ./ ./
+COPY ./package.json ./
 RUN npm install
+COPY ./ ./
 
 # default commands
 CMD [ "npm","start" ]
