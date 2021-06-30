@@ -3,7 +3,7 @@
 * **Step-1:** <br>
 Create a Docker Image <br>
     * Create a Dockerfile
-    * Use the Dockerfile to start up a nre container
+    * Use the Dockerfile to start up a new container
 
 * **Step-2** <br>
 Build the docker image by using:
@@ -24,4 +24,4 @@ If the command is successfully executed, we will see a message that says *ready 
 <hr>
 
 This was a simple demonstartion on how to build and run a Dockerfile to start up a running container from a Docker Image.
-We will now move on to the [Persistent Data]()
+We will now move on to the [Persistent Data](https://github.com/noviicee/Docker/tree/main/PersistentDataDemo/Persistent-Data)
